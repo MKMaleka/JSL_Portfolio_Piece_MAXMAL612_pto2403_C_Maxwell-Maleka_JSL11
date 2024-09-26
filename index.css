@@ -146,6 +146,14 @@ body {
   background-color: #E9B824;
 }
 
+#codereview-dot {
+  background-color: lightskyblue;
+}
+
+#testing-dot {
+  background-color: white;
+}
+
 #done-dot {
   background-color: #219C90;
 }

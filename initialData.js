@@ -36,7 +36,7 @@ export const initialData = [
     },
     {
         "id": 6,
-        "title": "Crush Frameworks 🔨",
+        "title": "Max Frameworks 🔨",
         "description": "Create a plan to study hard",
         "status": "todo",
         "board": "Roadmap"
@@ -89,5 +89,19 @@ export const initialData = [
         "description": "Create a portfolio showcasing your skills and projects to potential employers",
         "status": "doing",
         "board": "Launch Career"
+    },
+    {
+        "id": 14,
+        "title": "Github Projects 📚",
+        "description": "Create a repo to store security project",
+        "status": "codereview",
+        "board": "Launch Career"
+    },
+    {
+        "id": 15,
+        "title": "Hello World Projects 🌔",
+        "description": "Introduction to Javascript project",
+        "status": "codereview",
+        "board": "Roadmap"
     }
 ];

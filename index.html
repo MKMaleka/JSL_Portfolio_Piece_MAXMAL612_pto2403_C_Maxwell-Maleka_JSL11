@@ -18,7 +18,7 @@
     <!-- Navigation Sidebar: Contains the logo, navigation links for boards, and theme toggle. -->
     <nav class="side-bar" id="side-bar-div">
         <div id="side-logo-div">
-            <img id="logo" src="./assets/logo-dark.svg" alt="logo-dark">
+            <img id="logo" src="./assets/logo-light.svg" alt="logo-light">
         </div>
 
         <div class="boards-nav-links-div" id="boards-nav-links-div">
@@ -80,6 +80,24 @@
                     <!-- Tasks container for DOING -->
                     <div class="tasks-container"></div>
                 </div>
+                <!-- CODE REVIEW Column -->
+                <div class="column-div" data-status="codereview">
+                    <div id="codereview-head-div" class="column-head-div">
+                        <span class="dot" id="codereview-dot"></span>
+                        <h4 id="codereviewText" class="columnHeader">CODE REVIEW</h4>
+                    </div>
+                    <!-- Tasks container for CODE REVIEW -->
+                    <div class="tasks-container"></div>
+                </div>
+                <!-- TESTING Column -->
+                <div class="column-div" data-status="testing">
+                    <div id="testing-head-div" class="column-head-div">
+                        <span class="dot" id="testing-dot"></span>
+                        <h4 id="testingText" class="columnHeader">TESTING</h4>
+                    </div>
+                    <!-- Tasks container for CODE REVIEW -->
+                    <div class="tasks-container"></div>
+                </div>
                 <!-- DONE Column -->
                 <div class="column-div" data-status="done">
                     <div id="done-head-div" class="column-head-div">
@@ -109,6 +127,8 @@
             <select name="status" id="select-status">
                 <option value="todo">todo</option>
                 <option value="doing">doing</option>
+                <option value="codereview">codereview</option>
+                <option value="testing">testing</option>
                 <option value="done">done</option>
             </select>
         </div>
@@ -133,6 +153,8 @@
                 <select name="status" id="edit-select-status">
                     <option value="todo">todo</option>
                     <option value="doing">doing</option>
+                    <option value="codereview">codereview</option>
+                    <option value="testing">testing</option>
                     <option value="done">done</option>
                 </select>
             </div>
